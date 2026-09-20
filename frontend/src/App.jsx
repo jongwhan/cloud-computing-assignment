@@ -42,6 +42,10 @@ function App() {
 
       <p>관심 분야: 디지털금융, AI, 클라우드 컴퓨팅</p>
 
+      <p>
+        <a href="/about.html">개인 소개 HTML 페이지 보기</a>
+      </p>
+
       <h3>Frontend - Backend 연동 실습</h3>
 
       <p>
