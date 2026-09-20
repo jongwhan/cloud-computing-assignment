@@ -4,7 +4,7 @@ function App() {
   const [backendMessage, setBackendMessage] = useState("백엔드 연결 중...");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/hello")
+    fetch("https://cloud-computing-assignment-backend.onrender.com/api/hello")
       .then((response) => response.json())
       .then((data) => {
         setBackendMessage(data.message);
